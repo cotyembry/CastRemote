@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3BBA3C1C1733A400BC214C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3BBA3B1C1733A400BC214C /* UIColorExtension.swift */; };
+		0B63448B1C0FF11A00180B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63448A1C0FF11A00180B2E /* AppDelegate.swift */; };
+		0B63448D1C0FF11A00180B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63448C1C0FF11A00180B2E /* ViewController.swift */; };
+		0B6344901C0FF11A00180B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B63448E1C0FF11A00180B2E /* Main.storyboard */; };
+		0B6344921C0FF11A00180B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6344911C0FF11A00180B2E /* Assets.xcassets */; };
+		0B6344951C0FF11A00180B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6344931C0FF11A00180B2E /* LaunchScreen.storyboard */; };
+		0B63449F1C0FF53000180B2E /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B63449E1C0FF53000180B2E /* GoogleCast.framework */; };
+		0B6344AD1C0FF66C00180B2E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A31C0FF66B00180B2E /* Accelerate.framework */; };
+		0B6344AE1C0FF66C00180B2E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A41C0FF66C00180B2E /* AudioToolbox.framework */; };
+		0B6344AF1C0FF66C00180B2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A51C0FF66C00180B2E /* AVFoundation.framework */; };
+		0B6344B01C0FF66C00180B2E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A61C0FF66C00180B2E /* CoreBluetooth.framework */; };
+		0B6344B11C0FF66C00180B2E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A71C0FF66C00180B2E /* CoreText.framework */; };
+		0B6344B21C0FF66C00180B2E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A81C0FF66C00180B2E /* libc++.tbd */; };
+		0B6344B31C0FF66C00180B2E /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344A91C0FF66C00180B2E /* MediaAccessibility.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B6344B41C0FF66C00180B2E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344AA1C0FF66C00180B2E /* MediaPlayer.framework */; };
+		0B6344B51C0FF66C00180B2E /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344AB1C0FF66C00180B2E /* MediaToolbox.framework */; };
+		0B6344B61C0FF66C00180B2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6344AC1C0FF66C00180B2E /* SystemConfiguration.framework */; };
+		0B6C243A1C30EB2B009925C4 /* ChromeCastWorkFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C24391C30EB2B009925C4 /* ChromeCastWorkFiles.swift */; };
+		0B6C243E1C33A2D5009925C4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C243D1C33A2D5009925C4 /* DataModel.swift */; };
+		0B6C24481C3770FD009925C4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C24471C3770FD009925C4 /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3BBA3B1C1733A400BC214C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0B6344871C0FF11A00180B2E /* CastRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B63448A1C0FF11A00180B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B63448C1C0FF11A00180B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B63448F1C0FF11A00180B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B6344911C0FF11A00180B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B6344941C0FF11A00180B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B6344961C0FF11A00180B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B63449E1C0FF53000180B2E /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleCast.framework; sourceTree = "<group>"; };
+		0B6344A01C0FF57500180B2E /* CastRemote-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CastRemote-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B6344A31C0FF66B00180B2E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0B6344A41C0FF66C00180B2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0B6344A51C0FF66C00180B2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0B6344A61C0FF66C00180B2E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0B6344A71C0FF66C00180B2E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0B6344A81C0FF66C00180B2E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0B6344A91C0FF66C00180B2E /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		0B6344AA1C0FF66C00180B2E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0B6344AB1C0FF66C00180B2E /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		0B6344AC1C0FF66C00180B2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0B6C24391C30EB2B009925C4 /* ChromeCastWorkFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromeCastWorkFiles.swift; sourceTree = "<group>"; };
+		0B6C243D1C33A2D5009925C4 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		0B6C24471C3770FD009925C4 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ../StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6344841C0FF11A00180B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6344AD1C0FF66C00180B2E /* Accelerate.framework in Frameworks */,
+				0B6344AE1C0FF66C00180B2E /* AudioToolbox.framework in Frameworks */,
+				0B6344AF1C0FF66C00180B2E /* AVFoundation.framework in Frameworks */,
+				0B6344B01C0FF66C00180B2E /* CoreBluetooth.framework in Frameworks */,
+				0B6344B11C0FF66C00180B2E /* CoreText.framework in Frameworks */,
+				0B6344B21C0FF66C00180B2E /* libc++.tbd in Frameworks */,
+				0B6344B31C0FF66C00180B2E /* MediaAccessibility.framework in Frameworks */,
+				0B6344B41C0FF66C00180B2E /* MediaPlayer.framework in Frameworks */,
+				0B6344B51C0FF66C00180B2E /* MediaToolbox.framework in Frameworks */,
+				0B6344B61C0FF66C00180B2E /* SystemConfiguration.framework in Frameworks */,
+				0B63449F1C0FF53000180B2E /* GoogleCast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B63447E1C0FF11A00180B2E = {
+			isa = PBXGroup;
+			children = (
+				0B6344A31C0FF66B00180B2E /* Accelerate.framework */,
+				0B6344A41C0FF66C00180B2E /* AudioToolbox.framework */,
+				0B6344A51C0FF66C00180B2E /* AVFoundation.framework */,
+				0B6344A61C0FF66C00180B2E /* CoreBluetooth.framework */,
+				0B6344A71C0FF66C00180B2E /* CoreText.framework */,
+				0B6344A81C0FF66C00180B2E /* libc++.tbd */,
+				0B6344A91C0FF66C00180B2E /* MediaAccessibility.framework */,
+				0B6344AA1C0FF66C00180B2E /* MediaPlayer.framework */,
+				0B6344AB1C0FF66C00180B2E /* MediaToolbox.framework */,
+				0B6344AC1C0FF66C00180B2E /* SystemConfiguration.framework */,
+				0B6344891C0FF11A00180B2E /* CastRemote */,
+				0B6344881C0FF11A00180B2E /* Products */,
+				0B6344A01C0FF57500180B2E /* CastRemote-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6344881C0FF11A00180B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6344871C0FF11A00180B2E /* CastRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6344891C0FF11A00180B2E /* CastRemote */ = {
+			isa = PBXGroup;
+			children = (
+				0B63449E1C0FF53000180B2E /* GoogleCast.framework */,
+				0B63448A1C0FF11A00180B2E /* AppDelegate.swift */,
+				0B3BBA3B1C1733A400BC214C /* UIColorExtension.swift */,
+				0B63448C1C0FF11A00180B2E /* ViewController.swift */,
+				0B6C24391C30EB2B009925C4 /* ChromeCastWorkFiles.swift */,
+				0B6C243D1C33A2D5009925C4 /* DataModel.swift */,
+				0B6C24471C3770FD009925C4 /* StringExtension.swift */,
+				0B63448E1C0FF11A00180B2E /* Main.storyboard */,
+				0B6344911C0FF11A00180B2E /* Assets.xcassets */,
+				0B6344931C0FF11A00180B2E /* LaunchScreen.storyboard */,
+				0B6344961C0FF11A00180B2E /* Info.plist */,
+			);
+			path = CastRemote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6344861C0FF11A00180B2E /* CastRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6344991C0FF11A00180B2E /* Build configuration list for PBXNativeTarget "CastRemote" */;
+			buildPhases = (
+				0B6344831C0FF11A00180B2E /* Sources */,
+				0B6344841C0FF11A00180B2E /* Frameworks */,
+				0B6344851C0FF11A00180B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastRemote;
+			productName = CastRemote;
+			productReference = 0B6344871C0FF11A00180B2E /* CastRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B63447F1C0FF11A00180B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = cotyembry;
+				TargetAttributes = {
+					0B6344861C0FF11A00180B2E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3UUUB3VK63;
+					};
+				};
+			};
+			buildConfigurationList = 0B6344821C0FF11A00180B2E /* Build configuration list for PBXProject "CastRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B63447E1C0FF11A00180B2E;
+			productRefGroup = 0B6344881C0FF11A00180B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6344861C0FF11A00180B2E /* CastRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6344851C0FF11A00180B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6344951C0FF11A00180B2E /* LaunchScreen.storyboard in Resources */,
+				0B6344921C0FF11A00180B2E /* Assets.xcassets in Resources */,
+				0B6344901C0FF11A00180B2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6344831C0FF11A00180B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C243E1C33A2D5009925C4 /* DataModel.swift in Sources */,
+				0B63448D1C0FF11A00180B2E /* ViewController.swift in Sources */,
+				0B6C24481C3770FD009925C4 /* StringExtension.swift in Sources */,
+				0B63448B1C0FF11A00180B2E /* AppDelegate.swift in Sources */,
+				0B3BBA3C1C1733A400BC214C /* UIColorExtension.swift in Sources */,
+				0B6C243A1C30EB2B009925C4 /* ChromeCastWorkFiles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B63448E1C0FF11A00180B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B63448F1C0FF11A00180B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B6344931C0FF11A00180B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6344941C0FF11A00180B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B6344971C0FF11A00180B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B6344981C0FF11A00180B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B63449A1C0FF11A00180B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Developer/GoogleCastFolder/",
+					"$(PROJECT_DIR)/CastRemote",
+				);
+				INFOPLIST_FILE = CastRemote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotyembry.CastRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CastRemote-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B63449B1C0FF11A00180B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Developer/GoogleCastFolder/",
+					"$(PROJECT_DIR)/CastRemote",
+				);
+				INFOPLIST_FILE = CastRemote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotyembry.CastRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CastRemote-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6344821C0FF11A00180B2E /* Build configuration list for PBXProject "CastRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6344971C0FF11A00180B2E /* Debug */,
+				0B6344981C0FF11A00180B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6344991C0FF11A00180B2E /* Build configuration list for PBXNativeTarget "CastRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B63449A1C0FF11A00180B2E /* Debug */,
+				0B63449B1C0FF11A00180B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B63447F1C0FF11A00180B2E /* Project object */;
+}
